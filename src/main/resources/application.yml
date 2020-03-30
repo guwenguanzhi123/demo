@@ -1,0 +1,16 @@
+#注意空格的使用
+server:
+port: 8080
+spring:
+datasource:
+name: ssh  
+url: jdbc:mysql://localhost:3306/ssh?setUnicode=true&characterEncoding=utf8
+username: sdbase  
+password: Root@123  
+driver-class-name: com.mysql.jdbc.Driver
+
+
+mvc:
+view:
+prefix: /WEB-INF/views/
+suffix: .jsp
